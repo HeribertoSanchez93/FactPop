@@ -1,0 +1,36 @@
+# Secrets — NEVER commit .env
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+
+# Manual QA checklists (local only)
+manual-qa.md
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# PyInstaller
+*.spec
+
+# VS Code — commit settings.json (interpreter path), ignore user-specific files
+.vscode/*
+!.vscode/settings.json
